@@ -2,7 +2,7 @@ pipeline {
     agent any  // ← Change this from docker agent
 
     environment {
-        DOCKER_HUB_REPO = 'chhak322025git/flask-devops-app'
+        DOCKER_HUB_REPO = 'chhak322025/flask-devops-app'
         DOCKER_IMAGE_TAG = "${BUILD_NUMBER}"
     }
 
